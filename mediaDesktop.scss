@@ -1,0 +1,464 @@
+@media only screen and (min-width: 750px) {
+  body {
+    .arrowimg {
+      margin: 25% 49% auto;
+    }
+  }
+  .arrowimg2 {
+    height: 50%;
+    margin: -250px -20px 150px auto;
+  }
+
+  header {
+    aspect-ratio: 1/ 0.555;
+    background-image: url(./images/desktop/image-header.jpg);
+    padding: 2.27% 3.33%;
+    .logoimg {
+      width: 12.6%;
+      margin-top: 15px;
+    }
+    .menuimg {
+      display: none;
+    }
+
+    .menu {
+      display: block;
+      margin-inline: auto 0;
+      position: initial;
+      .triangle {
+        display: none;
+      }
+      ul {
+        float: right;
+        //width: 34.9%;
+        //min-width: 460px;
+        width: 460px;
+        margin-top: -40px;
+        background-color: transparent;
+        position: initial;
+
+        text-align: center;
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+        align-items: center;
+        li {
+          margin-top: 0;
+          a {
+            color: var(--drop-menu-color);
+            font-size: 18px;
+          }
+          a:hover {
+            color: var(--button-contact-mob);
+          }
+        }
+        li:nth-of-type(1) {
+          margin-top: 0;
+        }
+      }
+    }
+    button {
+      font-size: 15px;
+      background-color: var(--drop-menu-color);
+      width: 100%;
+    }
+    button:hover {
+      background-color: hsl(0, 0%, 100%, 40%);
+    }
+    h1 {
+      margin-top: 10%;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 160%; /* 88px */
+      letter-spacing: 10px;
+    }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  .transform {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .imgTransform {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .imgStandout {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .standout {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .graphicDesign {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .photography {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .testimonials {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+  .gallery {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+  }
+  footer {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+  }
+  .imgTransform {
+    background-image: url(./images/desktop/image-transform.jpg);
+  }
+  .imgStandout {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+  }
+  .transform,
+  .standout {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    //padding: 5vw;
+
+    h2 {
+      font-size: 32px;
+      letter-spacing: 1.6px;
+      margin-bottom: 16px;
+      max-width: 460px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 120%; /* 28.8px */
+      letter-spacing: -0.18px;
+      margin-bottom: 16px;
+      max-width: 460px;
+    }
+    button {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 160%; /* 24px */
+      letter-spacing: 1.5px;
+      justify-self: left;
+      max-width: 460px;
+    }
+    .underlineButton {
+      width: 135px;
+      height: 10px;
+      margin-top: -12px;
+      margin-inline: -7px auto;
+    }
+  }
+  .graphicDesign {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+  }
+  .photography {
+    background-image: url(./images/desktop/image-photography.jpg);
+  }
+  .graphicDesign,
+  .photography {
+    aspect-ratio: 1/ 0.833;
+    padding: 7%;
+    width: 100%;
+    h3 {
+      margin-top: 50%;
+      font-size: 24px;
+      letter-spacing: -0.56px;
+
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 120%; /* 25.6px */
+      letter-spacing: -0.16px;
+    }
+  }
+  .testimonials {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    grid-template-rows: auto auto;
+    padding: 8%;
+    h4 {
+      grid-column: 1 / span 3;
+      font-size: 18px;
+      letter-spacing: 6.12px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 120%; /* 30.6px */
+      letter-spacing: -0.18px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+    h6 {
+      font-size: 16px;
+    }
+  }
+}
+@media only screen and (min-width: 850px) {
+  header {
+    h1 {
+      margin-top: 10%;
+      font-size: 55px;
+      font-weight: 900;
+      line-height: 160%; /* 88px */
+      letter-spacing: 10px;
+    }
+  }
+  .transform,
+  .standout {
+    h2 {
+      font-size: 36px; //40px
+      margin-bottom: 16px; //24
+    }
+    p {
+      font-size: 18px;
+      line-height: 120%; /* 28.8px  160%*/
+    }
+  }
+}
+@media only screen and (min-width: 950px) {
+  .arrowimg2 {
+    margin: -200px -10vw 150px auto;
+  }
+  header {
+    max-height: 785px;
+  }
+  .transform,
+  .standout {
+    // max-height: 588px;
+
+    h2 {
+      font-size: 40px; //40px
+      margin-bottom: 24px; //24
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 160%; /* 28.8px  160%*/
+      margin-bottom: 24px;
+    }
+  }
+  .imgTransform,
+  .imgStandout {
+    max-height: 588px;
+    background-size: cover;
+  }
+  .graphicDesign,
+  .photography {
+    h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 160%; /* 25.6px */
+    }
+  }
+  .testimonials {
+    padding: 11.3%;
+    p {
+      font-size: 18px;
+      line-height: 170%; /* 30.6px */
+      letter-spacing: -0.18px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+    h6 {
+      font-size: 13px;
+    }
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  footer {
+    padding: 5% 17%;
+    .footerLogo {
+      width: 20%;
+
+      margin: 0 auto 32px;
+    }
+    ul {
+      max-width: 250px;
+    }
+    .social {
+      max-width: 150px;
+    }
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    .arrowimg {
+      max-height: 100px;
+    }
+  }
+  .arrowimg2 {
+    max-height: 100px;
+  }
+  header {
+    padding: 4% 7%;
+    .logoimg {
+      max-width: 250px;
+    }
+
+    .menu {
+      ul {
+        width: 600px;
+
+        li {
+          a {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    button {
+      font-size: 18px;
+    }
+  }
+  .imgTransform,
+  .imgStandout {
+    max-height: 100%;
+    background-size: cover;
+    height: 100%;
+  }
+  .transform,
+  .standout {
+    h2 {
+      font-size: 46px; //40px
+      max-width: 500px;
+    }
+    p {
+      font-size: 22px;
+      max-width: 500px;
+    }
+  }
+  .graphicDesign,
+  .photography {
+    h3 {
+      font-size: 42px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+  .testimonials {
+    padding: 11.3%;
+    h4 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 22px;
+    }
+    h5 {
+      font-size: 21px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+  }
+  footer {
+    padding: 5% 17%;
+    .footerLogo {
+      max-width: 350px;
+      margin-bottom: 64px;
+    }
+    ul {
+      max-width: 550px;
+      margin-bottom: 64px;
+      a {
+        font-size: 24px;
+      }
+    }
+    .social {
+      min-width: 200px;
+      max-width: 450px;
+      img {
+        width: 40px;
+        height: auto;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1900px) {
+  body {
+    .arrowimg {
+      margin: 20% 49% auto;
+    }
+  }
+  header {
+    padding: 2.27% 7%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .transform {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .imgTransform {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .imgStandout {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .standout {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .graphicDesign {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .photography {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .testimonials {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
+  .gallery {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+  }
+  .testimonials {
+    padding: 8% 12%;
+  }
+  footer {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+  }
+  .imgTransform,
+  .imgStandout {
+    max-height: none;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  body {
+    .arrowimg {
+      margin: 500px 49% auto;
+    }
+  }
+  header {
+    h1 {
+      margin-top: 200px;
+    }
+  }
+}
