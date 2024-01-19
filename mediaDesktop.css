@@ -120,6 +120,7 @@
     justify-content: center;
     align-content: center;
     text-align: left;
+    padding: 0 4vw;
   }
   .transform h2,
   .standout h2 {
